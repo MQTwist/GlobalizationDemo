@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  GlobalizationDemo
+
+  Created by ma qi on 2020/8/20.
+  Copyright © 2020 ma qi. All rights reserved.
+*/
+"首页" = "首页";
+"发现" = "发现";
+"我的" = "我的";
+"按钮" = "按钮";
+"这是个文本标签" = "这是个文本标签";
+"设置" = "设置";
+"跟随系统" = "跟随系统";
+"简体中文" = "简体中文";
+"English" = "English";

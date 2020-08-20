@@ -8,27 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		484ED42424EE2A1F00CEAB3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED42324EE2A1F00CEAB3E /* AppDelegate.m */; };
-		484ED42724EE2A1F00CEAB3E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED42624EE2A1F00CEAB3E /* SceneDelegate.m */; };
-		484ED42A24EE2A1F00CEAB3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED42924EE2A1F00CEAB3E /* ViewController.m */; };
-		484ED42D24EE2A1F00CEAB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484ED42B24EE2A1F00CEAB3E /* Main.storyboard */; };
 		484ED42F24EE2A2000CEAB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484ED42E24EE2A2000CEAB3E /* Assets.xcassets */; };
-		484ED43224EE2A2000CEAB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484ED43024EE2A2000CEAB3E /* LaunchScreen.storyboard */; };
 		484ED43524EE2A2000CEAB3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED43424EE2A2000CEAB3E /* main.m */; };
+		484ED43D24EE2A9400CEAB3E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED43C24EE2A9400CEAB3E /* BaseViewController.m */; };
+		484ED44024EE2AC400CEAB3E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED43F24EE2AC400CEAB3E /* HomeViewController.m */; };
+		484ED44324EE2AD300CEAB3E /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED44224EE2AD300CEAB3E /* FindViewController.m */; };
+		484ED44624EE2ADC00CEAB3E /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED44524EE2ADC00CEAB3E /* MeViewController.m */; };
+		484ED44924EE471800CEAB3E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED44824EE471800CEAB3E /* SettingViewController.m */; };
+		484ED44C24EE4B0300CEAB3E /* SettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED44B24EE4B0300CEAB3E /* SettingModel.m */; };
+		484ED45624EE4D5700CEAB3E /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED45524EE4D5700CEAB3E /* NSBundle+Language.m */; };
+		484ED46824EE71FC00CEAB3E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 484ED46A24EE71FC00CEAB3E /* Localizable.strings */; };
+		484ED47124EE72C000CEAB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484ED47024EE72C000CEAB3E /* LaunchScreen.storyboard */; };
+		484ED47424EE7DCC00CEAB3E /* MQTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED47324EE7DCC00CEAB3E /* MQTabbarController.m */; };
+		484ED47724EE846F00CEAB3E /* MQLanguageConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 484ED47624EE846F00CEAB3E /* MQLanguageConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		484ED41F24EE2A1F00CEAB3E /* GlobalizationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalizationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		484ED42224EE2A1F00CEAB3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		484ED42324EE2A1F00CEAB3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		484ED42524EE2A1F00CEAB3E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		484ED42624EE2A1F00CEAB3E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		484ED42824EE2A1F00CEAB3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		484ED42924EE2A1F00CEAB3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		484ED42C24EE2A1F00CEAB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		484ED42E24EE2A2000CEAB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		484ED43124EE2A2000CEAB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		484ED43324EE2A2000CEAB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		484ED43424EE2A2000CEAB3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		484ED43B24EE2A9400CEAB3E /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		484ED43C24EE2A9400CEAB3E /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		484ED43E24EE2AC400CEAB3E /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		484ED43F24EE2AC400CEAB3E /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		484ED44124EE2AD300CEAB3E /* FindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		484ED44224EE2AD300CEAB3E /* FindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		484ED44424EE2ADC00CEAB3E /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		484ED44524EE2ADC00CEAB3E /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		484ED44724EE471800CEAB3E /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		484ED44824EE471800CEAB3E /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		484ED44A24EE4B0300CEAB3E /* SettingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingModel.h; sourceTree = "<group>"; };
+		484ED44B24EE4B0300CEAB3E /* SettingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingModel.m; sourceTree = "<group>"; };
+		484ED45424EE4D5700CEAB3E /* NSBundle+Language.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		484ED45524EE4D5700CEAB3E /* NSBundle+Language.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		484ED46924EE71FC00CEAB3E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		484ED46B24EE720100CEAB3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		484ED47024EE72C000CEAB3E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		484ED47224EE7DCC00CEAB3E /* MQTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQTabbarController.h; sourceTree = "<group>"; };
+		484ED47324EE7DCC00CEAB3E /* MQTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTabbarController.m; sourceTree = "<group>"; };
+		484ED47524EE846F00CEAB3E /* MQLanguageConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLanguageConfig.h; sourceTree = "<group>"; };
+		484ED47624EE846F00CEAB3E /* MQLanguageConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLanguageConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +83,41 @@
 		484ED42124EE2A1F00CEAB3E /* GlobalizationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				484ED45024EE4D1300CEAB3E /* Language */,
 				484ED42224EE2A1F00CEAB3E /* AppDelegate.h */,
 				484ED42324EE2A1F00CEAB3E /* AppDelegate.m */,
-				484ED42524EE2A1F00CEAB3E /* SceneDelegate.h */,
-				484ED42624EE2A1F00CEAB3E /* SceneDelegate.m */,
-				484ED42824EE2A1F00CEAB3E /* ViewController.h */,
-				484ED42924EE2A1F00CEAB3E /* ViewController.m */,
-				484ED42B24EE2A1F00CEAB3E /* Main.storyboard */,
+				484ED47224EE7DCC00CEAB3E /* MQTabbarController.h */,
+				484ED47324EE7DCC00CEAB3E /* MQTabbarController.m */,
+				484ED43B24EE2A9400CEAB3E /* BaseViewController.h */,
+				484ED43C24EE2A9400CEAB3E /* BaseViewController.m */,
+				484ED43E24EE2AC400CEAB3E /* HomeViewController.h */,
+				484ED43F24EE2AC400CEAB3E /* HomeViewController.m */,
+				484ED44124EE2AD300CEAB3E /* FindViewController.h */,
+				484ED44224EE2AD300CEAB3E /* FindViewController.m */,
+				484ED44424EE2ADC00CEAB3E /* MeViewController.h */,
+				484ED44524EE2ADC00CEAB3E /* MeViewController.m */,
+				484ED44A24EE4B0300CEAB3E /* SettingModel.h */,
+				484ED44B24EE4B0300CEAB3E /* SettingModel.m */,
+				484ED44724EE471800CEAB3E /* SettingViewController.h */,
+				484ED44824EE471800CEAB3E /* SettingViewController.m */,
+				484ED47024EE72C000CEAB3E /* LaunchScreen.storyboard */,
+				484ED46A24EE71FC00CEAB3E /* Localizable.strings */,
 				484ED42E24EE2A2000CEAB3E /* Assets.xcassets */,
-				484ED43024EE2A2000CEAB3E /* LaunchScreen.storyboard */,
 				484ED43324EE2A2000CEAB3E /* Info.plist */,
 				484ED43424EE2A2000CEAB3E /* main.m */,
 			);
 			path = GlobalizationDemo;
+			sourceTree = "<group>";
+		};
+		484ED45024EE4D1300CEAB3E /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				484ED47524EE846F00CEAB3E /* MQLanguageConfig.h */,
+				484ED47624EE846F00CEAB3E /* MQLanguageConfig.m */,
+				484ED45424EE4D5700CEAB3E /* NSBundle+Language.h */,
+				484ED45524EE4D5700CEAB3E /* NSBundle+Language.m */,
+			);
+			path = Language;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,7 +160,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				"zh-Hans",
 			);
 			mainGroup = 484ED41624EE2A1F00CEAB3E;
 			productRefGroup = 484ED42024EE2A1F00CEAB3E /* Products */;
@@ -133,9 +177,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				484ED43224EE2A2000CEAB3E /* LaunchScreen.storyboard in Resources */,
+				484ED47124EE72C000CEAB3E /* LaunchScreen.storyboard in Resources */,
 				484ED42F24EE2A2000CEAB3E /* Assets.xcassets in Resources */,
-				484ED42D24EE2A1F00CEAB3E /* Main.storyboard in Resources */,
+				484ED46824EE71FC00CEAB3E /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,30 +190,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				484ED42A24EE2A1F00CEAB3E /* ViewController.m in Sources */,
+				484ED44C24EE4B0300CEAB3E /* SettingModel.m in Sources */,
+				484ED47424EE7DCC00CEAB3E /* MQTabbarController.m in Sources */,
+				484ED43D24EE2A9400CEAB3E /* BaseViewController.m in Sources */,
+				484ED44624EE2ADC00CEAB3E /* MeViewController.m in Sources */,
+				484ED47724EE846F00CEAB3E /* MQLanguageConfig.m in Sources */,
 				484ED42424EE2A1F00CEAB3E /* AppDelegate.m in Sources */,
+				484ED44924EE471800CEAB3E /* SettingViewController.m in Sources */,
+				484ED45624EE4D5700CEAB3E /* NSBundle+Language.m in Sources */,
+				484ED44324EE2AD300CEAB3E /* FindViewController.m in Sources */,
+				484ED44024EE2AC400CEAB3E /* HomeViewController.m in Sources */,
 				484ED43524EE2A2000CEAB3E /* main.m in Sources */,
-				484ED42724EE2A1F00CEAB3E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		484ED42B24EE2A1F00CEAB3E /* Main.storyboard */ = {
+		484ED46A24EE71FC00CEAB3E /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				484ED42C24EE2A1F00CEAB3E /* Base */,
+				484ED46924EE71FC00CEAB3E /* zh-Hans */,
+				484ED46B24EE720100CEAB3E /* en */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		484ED43024EE2A2000CEAB3E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				484ED43124EE2A2000CEAB3E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -179,6 +223,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -225,11 +270,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Debug;
 		};
@@ -237,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -277,10 +324,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -291,6 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GlobalizationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GlobalizationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

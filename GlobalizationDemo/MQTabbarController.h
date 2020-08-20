@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  MQTabbarController.h
 //  GlobalizationDemo
 //
 //  Created by ma qi on 2020/8/20.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface MQTabbarController : UITabBarController
 
 @end
 
+NS_ASSUME_NONNULL_END

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BaseViewController.h
 //  GlobalizationDemo
 //
 //  Created by ma qi on 2020/8/20.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (nonatomic, strong) UIWindow *window;
+@interface BaseViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
